@@ -1,0 +1,262 @@
+/* 手機格式 */
+
+@media(min-width: 0px) {
+    body {
+        margin-top: 100px;
+        background-color: rgb(255, 238, 143);
+    }
+    .header {
+        display: flex;
+        margin-top: -100px;
+        position: fixed;
+        width: 100vw;
+        height: 100px;
+        background-color: rgb(255, 238, 143);
+        z-index: 100;
+    }
+    .logo img {
+        display: block;
+        width: 80px;
+        height: 100px;
+    }
+    label img {
+        height: 50px;
+        position: fixed;
+        top: 25px;
+        right: 10px;
+    }
+    .warp {
+        width: 100vw;
+        height: 100%;
+        background-color: rgb(255, 238, 143);
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .box {
+        display: flex;
+        font-size: 16px;
+        border: 2px black solid;
+        border-radius: 5%;
+        background-color: rgb(248, 202, 62);
+        width: 90%;
+        /* max-height: 200px; */
+        text-align: center;
+        line-height: 1.3em;
+        margin: 3%;
+        padding: 3%;
+        /* overflow: auto; */
+        position: relative;
+    }
+    .boxp {
+        display: flex;
+        font-size: 16px;
+        border-radius: 5%;
+        background-color: rgb(252, 230, 171);
+        width: 90%;
+        /* max-height: 250px; */
+        text-align: start;
+        line-height: 1.3em;
+        margin: 3%;
+        padding: 3%;
+        margin-top: auto;
+        margin-bottom: auto;
+        /* overflow: auto; */
+        position: relative;
+    }
+    .box img {
+        /* height: 160px; */
+        width: 22vw;
+        border-radius: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #avglink {
+        display: none;
+    }
+    .page {
+        display: flex;
+        justify-content: center;
+    }
+    .pageblock {
+        border: 1px black solid;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .page a {
+        text-decoration: none;
+        color: black;
+    }
+    .btt img {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        border-radius: 100%;
+        z-index: 2;
+    }
+    .bookmore {
+        font-size: 14px;
+        position: absolute;
+        bottom: 45%;
+        right: -45px;
+        background-color: rgb(169, 245, 165);
+        border-radius: 50px;
+        padding: 5px;
+    }
+    footer {
+        text-align: center;
+    }
+    #footer {
+        width: 100%;
+    }
+}
+
+
+/* 平板格式 */
+
+@media(min-width: 500px) {
+    body {
+        margin-top: 100px;
+    }
+    .header {
+        margin-top: -100px;
+        position: fixed;
+        width: 100vw;
+        height: 100px;
+    }
+    .logo img {
+        display: block;
+        width: 80px;
+        height: 100px;
+    }
+    label img {
+        height: 60px;
+        position: fixed;
+        top: 20px;
+        right: 10px;
+    }
+    #avglink {
+        width: 50%;
+    }
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .box {
+        display: flex;
+        border: 2px black solid;
+        border-radius: 5%;
+        width: 90%;
+        /* max-height: 200px; */
+        text-align: center;
+        line-height: 1.3em;
+        margin: 3%;
+        padding: 3%;
+        /* overflow: auto; */
+    }
+    .boxp {
+        font-size: 19px;
+        border-radius: 5%;
+        width: 90%;
+        text-align: start;
+        line-height: 1.3em;
+        padding: 2%;
+        /* overflow: auto; */
+        position: relative;
+    }
+    .box img {
+        /* height: 180px; */
+        width: 17vw;
+        border-radius: 5%;
+    }
+    .bookmore {
+        font-size: 18px;
+        padding: 7px;
+    }
+    #footer {
+        height: 150px;
+        width: 80%;
+    }
+}
+
+
+/* 電腦格式 */
+
+@media(min-width: 950px) {
+    body {
+        margin-top: 100px;
+    }
+    .header {
+        margin-top: -100px;
+        position: fixed;
+        width: 100vw;
+        height: 100px;
+    }
+    .logo img {
+        display: block;
+        width: 80px;
+        height: 100px;
+    }
+    label img {
+        height: 70px;
+        position: fixed;
+        top: 15px;
+        right: 10px;
+    }
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .box {
+        position: relative;
+        display: flex;
+        border: 2px black solid;
+        border-radius: 5%;
+        width: 80%;
+        text-align: center;
+        margin: 2%;
+        padding: 3%;
+        /* overflow: auto; */
+        font-size: 20px;
+    }
+    .boxp {
+        font-size: 22px;
+        border-radius: 5%;
+        width: 80%;
+        /* max-height: 120px; */
+        text-align: start;
+        line-height: 1.4em;
+        /* overflow: auto; */
+    }
+    .box img {
+        width: 12vw;
+        border-radius: 5%;
+    }
+    #avglink {
+        display: block;
+        font-size: 26px;
+        padding-top: 36px;
+    }
+    .pageblock {
+        font-size: larger;
+        padding: 10px;
+    }
+    .webtitle {
+        font-size: 32px;
+    }
+    .bookmore {
+        font-size: 22px;
+        padding: 10px;
+    }
+    #footer {
+        height: 125px;
+        width: 50%;
+    }
+}

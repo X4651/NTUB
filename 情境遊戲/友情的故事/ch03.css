@@ -1,0 +1,658 @@
+label {
+  /* padding: 0; */
+  position: relative;
+  left: 20%;
+  margin-right: 10%;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+@-webkit-keyframes checkboxbtn-loanding {
+  0% {
+    opacity: 0;
+    top: -1vw;
+  }
+  100% {
+    opacity: 1;
+    top: 0vw;
+  }
+}
+@keyframes checkboxbtn-loanding {
+  0% {
+    opacity: 0;
+    top: -1vw;
+  }
+  100% {
+    opacity: 1;
+    top: 0vw;
+  }
+}
+
+input[type=checkbox]+label{
+    display: inline-block;
+    width:auto;
+    background-color: rgb(255, 255, 255);
+    /* padding: 3px 6px; */
+    border-color: gold;     /*邊框顏色*/
+    border-style: solid;     /*邊框*/
+    border-width: 0.4vw;
+    border-radius: 1vw;     /*邊框圓角*/
+
+    font-family: 微軟正黑體;
+    text-align: center;     /*文字居中*/
+    font-size: 7vw;        /*文字大小*/
+    color: gold;       /*文字顏色*/
+    font-weight: bold;        /*文字粗體*/
+    
+    /* margin: auto; */
+    position: relative;
+    margin-bottom: 2%;        /*按鈕之間的間距*/
+    user-select: none;
+    -webkit-animation: checkboxbtn-loanding 0.5s ease-in-out;/*效果*/
+    animation: checkboxbtn-loanding 0.5s ease-in-out;
+}
+
+input[type=checkbox]:checked+label {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 215, 0);
+}
+
+.ch03_dd{            /*第零段 弟弟 中間*/
+  position: fixed;
+  width: 25%;
+  left: 37%;
+  top: 7%;
+}
+
+.ch03_dd2{            /*第零段 弟弟跑進教室*/
+  position: fixed;
+  width: 25%;
+  right: 0%;
+  top: 7%;
+  animation: yourAnimation5 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_dd3{            /*弟弟左邊*/
+  position: fixed;
+  width: 25%;
+  left: 20%;
+  top: 7%;
+}
+
+.ch03_ddangry{            /*弟弟生氣*/
+  position: fixed;
+  width: 25%;
+  left: 37%;
+  top: 7%;
+}
+
+.ch03_ddscared{            /*第零段 弟弟被罵*/
+  position: fixed;
+  width: 25%;
+  left: 22%;
+  top: 7%;
+}
+
+.ch03_ddscared2{            /*第一段 弟弟追朋友a*/
+  position: fixed;
+  width: 25%;
+  left: 22%;
+  top: 7%;
+  animation: yourAnimation4 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_ddscared3{            /*第一段 弟弟追朋友a*/
+  position: fixed;
+  width: 25%;
+  left: -60%;
+  top: 7%;
+  animation: yourAnimation4 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_ddscared4{            /*弟弟左邊*/
+  position: fixed;
+  width: 25%;
+  left: 20%;
+  top: 7%;
+}
+
+.ch03_ddscared5{            /*弟弟左邊*/
+  position: fixed;
+  width: 25%;
+  left: 20%;
+  top: 7%;
+  animation: yourAnimation6 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_ddprotect{            /*第零段 弟弟保護 中間*/
+  position: fixed;
+  width: 32%;
+  left: 37%;
+  top: 17%;
+}
+
+.ch03_friend1{            /*李嚴*/
+  position: fixed;
+  width: 21%;
+  left: 13%;
+  top: 13%;
+}
+
+.ch03_friend1b{            /*第一段李嚴*/
+  position: fixed;
+  width: 21%;
+  left: 20%;
+  top: 13%;
+}
+
+.ch03_friend1c{            /*李嚴*/
+  position: fixed;
+  width: 21%;
+  left: 15%;
+  top: 13%;
+}
+
+.ch03_friend1d{            /*李嚴*/
+  position: fixed;
+  width: 21%;
+  left: 17%;
+  top: 13%;
+  animation: yourAnimation5 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_friend2{            /*小政*/
+  position: fixed;
+  width: 23%;
+  right: 13%;
+  top: 12%;
+}
+
+.ch03_friend2b{            /*第一段小政*/
+  position: fixed;
+  width: 23%;
+  right: 20%;
+  top: 12%;
+}
+
+.ch03_friend2c{            /*小政*/
+  position: fixed;
+  width: 23%;
+  right: 16%;
+  top: 12%;
+}
+
+.ch03_friend1scared{            /*李嚴被罵*/
+  position: fixed;
+  width: 21%;
+  left: 3%;
+  top: 16%;
+}
+
+.ch03_friend1scared2{            /*李嚴被罵*/
+  position: fixed;
+  width: 21%;
+  left: 13%;
+  top: 16%;
+}
+
+.ch03_friend1scared3{            /*李嚴被罵*/
+  position: fixed;
+  width: 22%;
+  left: 13%;
+  top: 15%;
+}
+
+.ch03_friend2scared{            /*小政被罵*/
+  position: fixed;
+  width: 23%;
+  right: 33%;
+  top: 12%;
+}
+
+.ch03_friend2scared2{            /*小政被罵*/
+  position: fixed;
+  width: 23%;
+  right: 13%;
+  top: 12%;
+}
+
+.ch03_friend2scared3{            /*小政被罵*/
+  position: fixed;
+  width: 23%;
+  right: 13%;
+  top: 12%;
+  animation: yourAnimation4 3s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_friend2scared4{            /*小政被罵*/
+  position: fixed;
+  width: 23%;
+  left: -20%;
+  top: 12%;
+  animation: yourAnimation4 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_friend2scared5{            /*小政被罵*/
+  position: fixed;
+  width: 23%;
+  right: 20%;
+  top: 12%;
+}
+
+.ch03_friend2scared6{            /*小政被罵*/
+  position: fixed;
+  width: 23%;
+  right: 20%;
+  top: 12%;
+  animation: yourAnimation7 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_friend1angry{            /*李嚴生氣黑影*/
+  position: fixed;
+  width: 21%;
+  left: 17%;
+  top: 13%;
+  -webkit-filter: brightness(.1);
+}
+
+.ch03_friend1angry2{            /*李嚴生氣*/
+  position: fixed;
+  width: 21%;
+  left: 13%;
+  top: 13%;
+}
+
+.ch03_friend1angry3{            /*第一段 李嚴生氣跑走*/
+  position: fixed;
+  width: 21%;
+  left: 50%;
+  top: 13%;
+  animation: yourAnimation4 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_friend1angry4{            /*第一段 李嚴生氣跑走*/
+  position: fixed;
+  width: 21%;
+  left: -20%;
+  top: 13%;
+  animation: yourAnimation4 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_friend2angry{            /*小政生氣黑影*/
+  position: fixed;
+  width: 23%;
+  left: 30%;
+  top: 12%;
+}
+
+.ch03_friend2angry2{            /*小政生氣黑影(動畫)*/
+  position: fixed;
+  width: 23%;
+  left: 30%;
+  top: 12%;
+  -webkit-filter: brightness(.1);
+  -webkit-animation: rotate-90-bottom-cw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-90-bottom-cw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.ch03_friend2angry3{            /*小政生氣*/
+  position: fixed;
+  width: 23%;
+  right: 13%;
+  top: 12%;
+}
+
+.ch03_name1{            /*秋明*/
+  position: fixed;
+  width: 35%;
+  left: 31%;
+  top: 0%;
+}
+
+.ch03_name2{            /*李嚴*/
+  position: fixed;
+  width: 35%;
+  left: 6%;
+  top: 0%;
+}
+
+.ch03_name3{            /*小政*/
+  position: fixed;
+  width: 35%;
+  right: 7%;
+  top: 0%;
+}
+
+.ch03_bell{            /*第零段鐘聲*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 15%;
+  -webkit-animation: wobble-hor-top 0.8s infinite both;
+	        animation: wobble-hor-top 0.8s infinite both;
+}
+
+.ch03_door{            /*第零段老師進門*/
+  position: fixed;
+  width: 46%;
+  right: -5%;
+  top: 0%;
+}
+
+.ch03_door_frame{            /*第零段門框*/
+  position: fixed;
+  width: 32%;
+  right: 5%;
+  top: 5%;
+}
+
+.ch03_window{            /*第零段窗戶*/
+  position: fixed;
+  width: 80%;
+  left: 10%;
+  top: -5%;
+}
+
+.ch03_teacherangry{            /*第零段老師*/
+  position: fixed;
+  width: 27%;
+  right: 0%;
+  top: 7%;
+}
+
+.ch03_teacherangry2{            /*第零段老師(動畫)*/
+  position: fixed;
+  width: 27%;
+  right: 0%;
+  top: 7%;
+  animation: teacher 1.5s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch03_teacherangry3{            /*第零段老師訓話*/
+  position: fixed;
+  width: 27%;
+  right: 0%;
+  top: -5%;
+}
+
+.ch03_female_classmate{            /*女同學A*/
+  position: fixed;
+  width: 27%;
+  right: -20%;
+  top: 13%;
+}
+
+.ch03_female_classmateA2{            /*女同學A2*/
+  position: fixed;
+  width: 27%;
+  right: -20%;
+  top: 13%;
+  animation: teacher 1.5s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.bg_flicker1{/*水波*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+  user-select:none;     /*禁止反白*/
+  -webkit-animation: ping 0.8s ;
+	        animation: ping 0.8s ;
+}
+
+.bg_flicker2{/*滑入*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+  user-select:none;     /*禁止反白*/
+  -webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+/*鈴聲*/
+@-webkit-keyframes wobble-hor-top {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(6deg);
+            transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(-6deg);
+            transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(3.6deg);
+            transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(-2.4deg);
+            transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(1.2deg);
+            transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+@keyframes wobble-hor-top {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(6deg);
+            transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(-6deg);
+            transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(3.6deg);
+            transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(-2.4deg);
+            transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(1.2deg);
+            transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
+/*小政被推倒*/
+@-webkit-keyframes rotate-90-bottom-cw {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+}
+@keyframes rotate-90-bottom-cw {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+}
+
+/*往右跑*/
+@keyframes yourAnimation4 {
+  0.0%{
+      transform: scale(1) translate(0%, 0) skew(0deg);
+  }
+  100%{
+      transform: scale(1) translate(300%, 0) skew(0deg);
+  }
+  49.5%{
+      transform: scale(1) translate(0%, 0) skew(-12deg);
+  }
+}
+
+/*往左跑*/
+@keyframes yourAnimation5 {
+  0.0%{
+      transform: scale(1) translate(0%, 0) skew(0deg);
+  }
+  100%{
+      transform: scale(1) translate(-250%, 0) skew(0deg);
+  }
+  49.5%{
+      transform: scale(1) translate(0%, 0) skew(12deg);
+  }
+}
+
+/*跑一小段*/
+@keyframes yourAnimation6 {
+  0.0%{
+      transform: scale(1) translate(0%, 0) skew(0deg);
+  }
+  100%{
+      transform: scale(1) translate(50%, 0) skew(0deg);
+  }
+}
+
+/*往左跑一大段*/
+@keyframes yourAnimation7 {
+  0.0%{
+      transform: scale(1) translate(0%, 0) skew(0deg);
+  }
+  100%{
+      transform: scale(1) translate(-400%, 0) skew(0deg);
+  }
+  49.5%{
+      transform: scale(1) translate(0%, 0) skew(12deg);
+  }
+}
+
+/*老師進門*/
+@keyframes teacher {
+  0.0%{
+      transform: scale(1) translate(0%,0%);
+  }
+  100%{
+      transform: scale(1) translate(-135%,0%);
+  }
+  24.9%{
+      transform: scale(1) translate(-60%,-3%);
+  }
+  50.2%{
+      transform: scale(1) translate(-85%,0%);
+  }
+  74.8%{
+      transform: scale(1) translate(-110%,-3%);
+  }
+}
+
+/*水波*/
+ @-webkit-keyframes ping {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+  }
+}
+@keyframes ping {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+/*背景切換*/
+ @-webkit-keyframes tracking-in-contract-bck-top {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(-300px);
+            transform: translateZ(400px) translateY(-300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck-top {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(-300px);
+            transform: translateZ(400px) translateY(-300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}

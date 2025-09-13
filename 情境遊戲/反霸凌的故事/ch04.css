@@ -1,0 +1,567 @@
+.ch04_dd{            /*第零段 弟弟 中間*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch04_dd2{            /*第零段 弟弟 左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch04_dd3{            /*第一段 弟弟 右邊*/
+    position: fixed;
+    width: 20%;
+    right: 15%;
+    top: 5%;
+}
+
+.ch04_ddsad{            /*第零段 弟弟難過 左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch04_ddsad2{            /*第零段 弟弟難過 中間*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 9%;
+}
+
+.ch04_ddsad3{            /*第一段 弟弟跑出教室*/
+  position: fixed;
+  width: 27%;
+  right: 0%;
+  top: 9%;
+  animation: teacher 1.5s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch04_ddangry{            /*第零段 弟弟生氣 左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch04_ddshy{            /*第零段 弟弟害羞 左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch04_ddhappy{            /*第二段 弟弟開心 左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch04_ddprotect{            /*結局一 弟弟保護 中間*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch04_furyo_shounen{            /*結局一 不良少年*/
+    position: fixed;
+    width: 27%;
+    left: 17%;
+    top: 9%;
+}
+
+.ch04_listen_to_music{            /*第一段 弟弟蹲下聽音樂*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch04_hairball{            /*第零段 毛球*/
+    position: fixed;
+    width: 15%;
+    right: 0%;
+    top: 0%;
+    -webkit-animation: shake-lr 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-lr 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch04_jacket{            /*第零段 上衣*/
+    position: fixed;
+    width: 15%;
+    right: 20%;
+    top: 0%;
+    -webkit-animation: shake-lr 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-lr 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch04_pants{            /*第零段 褲子*/
+    position: fixed;
+    width: 15%;
+    right: 10%;
+    top: 40%;
+    -webkit-animation: shake-lr 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-lr 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch04_music{            /*第零段 音樂*/
+    position: fixed;
+    width: 25%;
+    left: 5%;
+    top: 40%;
+    -webkit-animation: shake-lr 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-lr 15s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch04_dessert{            /*第零段 點心*/
+    position: fixed;
+    width: 15%;
+    left: 15%;
+    top: 0%;
+    -webkit-animation: shake-lr 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-lr 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch04_basketball{            /*結局四 籃球*/
+    position: fixed;
+    width: 15%;
+    left: 13%;
+    top: 20%;
+    -webkit-animation: shake-lr 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-lr 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch04_game{            /*結局四 手遊*/
+    position: fixed;
+    width: 20%;
+    right: 10%;
+    top: 10%;
+    -webkit-animation: shake-lr 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-lr 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch04_idol{            /*第零段 偶像*/
+    position: fixed;
+    width: 70%;
+    left: 15%;
+    top: 0%;
+}
+
+.ch04_door{            /*第零段老師進門*/
+  position: fixed;
+  width: 46%;
+  right: -5%;
+  top: 0%;
+}
+
+.ch04_door_frame{            /*第零段門框*/
+  position: fixed;
+  width: 32%;
+  right: 5%;
+  top: 5%;
+}
+
+.ch04_fb{            /*第一段fb*/
+  position: fixed;
+  width: 50%;
+  left: 25%;
+  top: 0%;
+}
+
+.ch04_news{            /*第一段news*/
+  position: fixed;
+  width: 70%;
+  left: 15%;
+  top: 0%;
+}
+
+.ch04_bell{            /*第零段鐘聲*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 15%;
+  -webkit-animation: wobble-hor-top 0.8s infinite both;
+	        animation: wobble-hor-top 0.8s infinite both;
+}
+
+.ch04_teacher{            /*第零段老師*/
+  position: fixed;
+  width: 27%;
+  right: 0%;
+  top: 7%;
+}
+
+.ch04_teacher2{            /*第零段老師(動畫)*/
+  position: fixed;
+  width: 27%;
+  right: 0%;
+  top: 7%;
+  animation: teacher 1.5s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch04_female_classmate{            /*女同學A*/
+  position: fixed;
+  width: 17%;
+  right: 30%;
+  top: 0%;
+}
+
+.ch04_female_classmateA2{            /*女同學A2*/
+  position: fixed;
+  width: 25%;
+  left: 15%;
+  top: 5%;
+}
+
+.ch04_female_classmate2{            /*女同學B*/
+  position: fixed;
+  width: 20%;
+  right: 0%;
+  top: 0%;
+}
+
+.ch04_female_classmateB2{            /*女同學B2*/
+  position: fixed;
+  width: 27%;
+  right: 15%;
+  top: 5%;
+}
+
+.ch04_male_classmate{            /*男同學A*/
+  position: fixed;
+  width: 19%;
+  left: 0%;
+  top: 0%;
+}
+
+.ch04_male_classmateA2{            /*男同學A2*/
+  position: fixed;
+  width: 25%;
+  left: 15%;
+  top: 5%;
+}
+
+.ch04_male_classmate2{            /*男同學B*/
+  position: fixed;
+  width: 20%;
+  left: 20%;
+  top: 0%;
+}
+
+.ch04_male_classmateB2{            /*男同學B2*/
+  position: fixed;
+  width: 27%;
+  right: 15%;
+  top: 5%;
+}
+
+.ch04_male_classmateSOR{            /*男同學道歉*/
+  position: fixed;
+  width: 70%;
+  left: 15%;
+  top: 0%;
+}
+
+.ch04_male_classmateSOR2{            /*結局一 男同學道歉*/
+  position: fixed;
+  width: 35%;
+  right: 10%;
+  top: 10%;
+}
+
+.ch04_applaud{            /*同學鼓掌*/
+  position: fixed;
+  width: 70%;
+  left: 15%;
+  top: 0%;
+}
+
+.ch04_txt1{            /*gay*/
+  position: fixed;
+  width: 50%;
+  left: 20%;
+  top: 0%;
+}
+
+.ch04_txt2{            /*吸氣*/
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.ch04_txt3{            /*吐氣*/
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.ch04_txt4{            /*向左*/
+  position: fixed;
+  width: 35%;
+  right: 20%;
+  top: 10%;
+}
+
+.ch04_txt5{            /*不好笑*/
+  position: fixed;
+  width: 40%;
+  right: 30%;
+  top: 15%;
+}
+
+.ch04_txt6{            /*很多男生*/
+  position: fixed;
+  width: 40%;
+  right: 30%;
+  top: 10%;
+}
+
+.ch04_txt7{            /*喜歡女團*/
+  position: fixed;
+  width: 40%;
+  right: 30%;
+  top: 20%;
+}
+
+.ch04_tears1{            /*淚水*/
+  position: fixed;
+  width: 3%;
+  left: 43%;
+  top: 50%;
+}
+
+.ch04_tears12{            /*淚水動畫*/
+  position: fixed;
+  width: 3%;
+  left: 43%;
+  top: 50%;
+  -webkit-animation: slide-out-bottom 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+	        animation: slide-out-bottom 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+}
+
+.ch04_tears2{            /*淚水*/
+  position: fixed;
+  width: 3%;
+  right: 43%;
+  top: 50%;
+}
+
+.ch04_tears22{            /*淚水動畫*/
+  position: fixed;
+  width: 3%;
+  right: 43%;
+  top: 50%;
+  -webkit-animation: slide-out-bottom 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+	        animation: slide-out-bottom 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+}
+
+.ch04_end2{/*主角筆記*/
+  position: fixed;
+  width: 27%;
+  left: 35%;
+  top: 9%;
+}
+
+.ch04_end3{/*大家牽手*/
+  position: fixed;
+  width: 80%;
+  left: 10%;
+  top: 9%;
+}
+
+.ch04_end4{/*主角手放胸前*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 9%;
+}
+
+.ch04_end5{/*爸爸蹲下摸*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 0%;
+}
+
+/*第零段 物件晃動*/
+ @-webkit-keyframes shake-lr {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    10% {
+      -webkit-transform: rotate(8deg);
+              transform: rotate(8deg);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
+    }
+    80% {
+      -webkit-transform: rotate(-8deg);
+              transform: rotate(-8deg);
+    }
+    90% {
+      -webkit-transform: rotate(8deg);
+              transform: rotate(8deg);
+    }
+  }
+  @keyframes shake-lr {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    10% {
+      -webkit-transform: rotate(8deg);
+              transform: rotate(8deg);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
+    }
+    80% {
+      -webkit-transform: rotate(-8deg);
+              transform: rotate(-8deg);
+    }
+    90% {
+      -webkit-transform: rotate(8deg);
+              transform: rotate(8deg);
+    }
+  }
+
+/*鈴聲*/
+ @-webkit-keyframes wobble-hor-top {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(6deg);
+            transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(-6deg);
+            transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(3.6deg);
+            transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(-2.4deg);
+            transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(1.2deg);
+            transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+@keyframes wobble-hor-top {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(6deg);
+            transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(-6deg);
+            transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(3.6deg);
+            transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(-2.4deg);
+            transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(1.2deg);
+            transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
+/*老師進門*/
+@keyframes teacher {
+  0.0%{
+      transform: scale(1) translate(0%,0%);
+  }
+  100%{
+      transform: scale(1) translate(-135%,0%);
+  }
+  24.9%{
+      transform: scale(1) translate(-60%,-3%);
+  }
+  50.2%{
+      transform: scale(1) translate(-85%,0%);
+  }
+  74.8%{
+      transform: scale(1) translate(-110%,-3%);
+  }
+}
+
+/*流淚*/
+@-webkit-keyframes slide-out-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+}
+@keyframes slide-out-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+}

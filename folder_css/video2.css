@@ -1,0 +1,177 @@
+/* 手機格式 */
+
+@media(min-width: 0px) {
+    body {
+        margin-top: 100px;
+        background-color: rgb(252, 240, 225);
+    }
+    .header {
+        display: flex;
+        margin-top: -100px;
+        position: fixed;
+        width: 100vw;
+        height: 100px;
+        background-color: rgb(252, 240, 225);
+        z-index: 100;
+    }
+    .logo img {
+        display: block;
+        width: 80px;
+        height: 100px;
+    }
+    label img {
+        height: 50px;
+        position: fixed;
+        top: 25px;
+        right: 10px;
+    }
+    .warp {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(252, 240, 225);
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .box {
+        font-size: 16px;
+        border: 2px rgb(255, 157, 76) solid;
+        border-radius: 5%;
+        background-color: rgb(239, 185, 70);
+        width: 80%;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
+    }
+    .box img {
+        height: 24vw;
+        width: 55%;
+        border-radius: 15%;
+    }
+    a {
+        text-decoration: none;
+    }
+    #avglink {
+        display: none;
+    }
+    .btt img {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        border-radius: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+    }
+    #footer {
+        width: 100%;
+    }
+    .box iframe {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/* 平板格式 */
+
+@media(min-width: 500px) {
+    body {
+        margin-top: 100px;
+    }
+    .header {
+        margin-top: -100px;
+        position: fixed;
+        width: 100vw;
+        height: 100px;
+    }
+    .logo img {
+        display: block;
+        width: 80px;
+        height: 100px;
+    }
+    label img {
+        height: 60px;
+        position: fixed;
+        top: 20px;
+        right: 10px;
+    }
+    .box {
+        font-size: 17px;
+        width: 33%;
+        padding: 2%;
+        margin: 1%;
+    }
+    .box img {
+        height: 15vw;
+        width: 70%;
+        border-radius: 15%;
+    }
+    #footer {
+        height: 150px;
+        width: 80%;
+    }
+}
+
+
+/* 電腦格式 */
+
+@media(min-width: 950px) {
+    body {
+        margin-top: 100px;
+    }
+    .header {
+        margin-top: -100px;
+        position: fixed;
+        width: 100vw;
+        height: 100px;
+    }
+    .logo img {
+        display: block;
+        width: 80px;
+        height: 100px;
+    }
+    label img {
+        height: 70px;
+        position: fixed;
+        top: 15px;
+        right: 10px;
+    }
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .box {
+        width: 28%;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.5em;
+        padding: 1%;
+        /* overflow: auto; */
+    }
+    .box img {
+        height: 8vw;
+        width: 65%;
+        border-radius: 15%;
+    }
+    #avglink {
+        display: block;
+        font-size: 26px;
+        padding-top: 36px;
+    }
+    #footer {
+        height: 125px;
+        width: 50%;
+    }
+}

@@ -1,0 +1,540 @@
+.ch01_mom{            /*第零段媽媽*/
+    position: fixed;
+    width: 25%;
+    right: 15%;
+    top: 7%;
+}
+
+.ch01_mom2{            /*第零段媽媽轉頭看到哥哥回家(反轉)*/
+    position: fixed;
+    width: 25%;
+    left: 15%;
+    top: 7%;
+}
+
+.ch01_mom3{            /*結局八媽媽反轉*/
+    position: fixed;
+    width: 20%;
+    left: 5%;
+    top: 5%;
+}
+
+.ch01_mom_go_out{            /*第零段媽媽出門(移動前)*/
+    position: fixed;
+    width: 25%;
+    left: 15%;
+    top: 7%;
+}
+
+.ch01_mom_go_out2{            /*第零段媽媽出門(套用移動動畫)*/
+    position: fixed;
+    width: 25%;
+    left: 15%;
+    top: 7%;
+
+    animation: mom 2s ease 0s 1 normal none;
+}
+
+.ch01_dad{            /*第五段爸爸*/
+    position: fixed;
+    width: 27%;
+    right: 10%;
+    top: 3%;
+}
+
+.ch01_dad2{            /*第五段爸爸移動*/
+    position: fixed;
+    width: 27%;
+    right: 10%;
+    top: 3%;
+
+    animation: dad 1s ease 0s 1 normal none;
+    animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch01_dad3{            /*結局八爸爸*/
+    position: fixed;
+    width: 20%;
+    right: 5%;
+    top: 5%;
+}
+
+.ch01_gg{                 /*第一段哥哥*/
+    position: fixed;
+    width: 27%;
+    right: 15%;
+    top: 9%;
+}
+
+.ch01_gg2{                 /*結局八哥哥*/
+    position: fixed;
+    width: 27%;
+    right: 37%;
+    top: 9%;
+}
+
+.ch01_gg3{                 /*結局八哥哥2*/
+    position: fixed;
+    width: 15%;
+    right: 31%;
+    top: 0%;
+}
+
+.ch01_gg_cake{                 /*第零段哥哥吃蛋糕*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_gghappy{                 /*第零段哥哥微笑*/
+    position: fixed;
+    width: 27%;
+    right: 15%;
+    top: 9%;
+}
+
+.ch01_ggangry{                 /*第一段哥哥生氣*/
+    position: fixed;
+    width: 27%;
+    right: 15%;
+    top: 9%;
+}
+
+.ch01_gg_go_home{                 /*第零段哥哥回家*/
+    position: fixed;
+    width: 27%;
+    right: 0%;
+    top: 9%;
+}
+
+.ch01_gg_go_home2{                 /*第零段哥哥回家動畫*/
+    position: fixed;
+    width: 27%;
+    right: 0%;
+    top: 9%;
+
+    animation: gg 1.5s ease 0s 1 normal none;
+    animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch01_gg_hug{                 /*第零段哥哥回家動畫*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_maymay{                 /*第零段妹妹上社團課*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_maymay2{                 /*第二段妹妹移到左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch01_maymay3{                 /*第六段妹妹移到左中*/
+    position: fixed;
+    width: 27%;
+    left: 15%;
+    top: 9%;
+}
+
+.ch01_maymay4{                 /*結局八妹妹*/
+    position: fixed;
+    width: 15%;
+    left: 31%;
+    top: 0%;
+}
+
+.ch01_maymayscared{           /*第零段妹妹嚇到的臉*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_maymayscared2{           /*第零段把妹妹嚇到的臉移到左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch01_maymayangry{           /*第零段把妹妹生氣的臉移到左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch01_maymayangry2{           /*第一段把妹妹生氣的臉移到左邊*/
+    position: fixed;
+    width: 27%;
+    left: 15%;
+    top: 9%;
+}
+
+.ch01_maymayangry3{           /*第三段把妹妹生氣的臉移到中間*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_maymaycry{           /*第零段把妹妹大哭的臉移到左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch01_maymaycry2{           /*第二段把妹妹大哭的臉移到中間*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_maymaystopcry{           /*第零段把妹妹委屈的臉移到左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch01_maymaysad{           /*第三段把妹妹傷心的臉移到左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch01_maymaysad2{           /*結局一妹妹在中間*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_maymaysad3{           /*結局六*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_maymaysad_walk{           /*第四段走回房間*/
+    position: fixed;
+    width: 27%;
+    left: 19.5%;
+    top: 5.5%;
+    
+    animation: yourAnimation1 2s ease 0s 1 normal none;
+    animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch01_maymayhappy{           /*第零段妹妹開心的開冰箱*/
+    position: fixed;
+    width: 27%;
+    left: 15%;
+    top: 13%;
+}
+
+.ch01_maymayhappy2{           /*第四段把妹妹開心的臉移到左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.ch01_maymayhappy3{           /*結局三*/
+    position: fixed;
+    width: 27%;
+    left: 15%;
+    top: 9%;
+}
+
+.ch01_maymayhappy4{           /*結局五*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_maymayread{           /*第四段看書*/
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    top: 0%;
+}
+
+.ch01_cake1{            /*蛋糕*/
+    position: fixed;
+    width: 20%;
+    right: 40%;
+    top: 30%;
+}
+
+.ch01_cake2{            /*蛋糕2*/
+    position: fixed;
+    width: 20%;
+    right: 20%;
+    top: 30%;
+}
+
+.ch01_cake3{            /*蛋糕3*/
+    position: fixed;
+    width: 20%;
+    right: 60%;
+    top: 25%;
+}
+
+.ch01_shopping_cart{            /*購物車*/
+    position: fixed;
+    width: 30%;
+    left: 10%;
+    top: 40%;
+}
+
+.ch01_txt1{            /*吸氣*/
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+  
+.ch01_txt2{            /*吐氣*/
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+
+.ch01_friendA{           /*第六段friendA*/
+    position: fixed;
+    width: 27%;
+    right: 15%;
+    top: 9%;
+}
+
+.ch01_friendA2{           /*結局二friendA*/
+    position: fixed;
+    width: 27%;
+    right: 40%;
+    top: 9%;
+}
+
+.ch01_friendB{           /*結局二friendB*/
+    position: fixed;
+    width: 27%;
+    right: 20%;
+    top: 9%;
+}
+
+.ch01_friendC{           /*結局二friendC*/
+    position: fixed;
+    width: 27%;
+    right: 0%;
+    top: 9%;
+}
+
+.ch01_fridge{            /*第零段冰箱*/
+    position: fixed;
+    width: 80%;
+    right: 8%;
+    top: 10%;
+}
+
+.ch01_fridge2{            /*第零段冰箱2*/
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    top: 0%;
+}
+
+.ch01_door{            /*第零段門*/
+    position: fixed;
+    width: 46%;
+    right: -15%;
+    top: 0%;
+}
+
+.ch01_door_walk{       /*門 較小*/
+    position: fixed;
+    width: 30%;
+    right: 0%;
+    top: 0%;
+}
+
+.ch01_door2{            /*第三段妹妹關門*/
+    position: fixed;
+    width: 46%;
+    right: -15%;
+    top: 0%;
+}
+
+.ch01_door3{            /*門*/
+    position: fixed;
+    width: 46%;
+    right: -5%;
+    top: 0%;
+}
+  
+.ch01_door_frame{            /*門框*/
+    position: fixed;
+    width: 32%;
+    right: 5%;
+    top: 5%;
+}
+
+.ch01_table{            /*結局八桌子*/
+    position: fixed;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+}
+
+.ch01_pork{            /*結局八豬排*/
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    top: 0%;
+}
+
+.ch01_pork2{            /*結局八豬排2*/
+    position: fixed;
+    width: 15%;
+    left: 30%;
+    top: 30%;
+}
+
+.ch01_txt3{            /*第三段妹妹關門狀聲詞*/
+    position: fixed;
+    width: 50%;
+    right: 10%;
+    top: 5%;
+}
+
+.ch01_txt4{            /*The Next Day...*/
+    position: fixed;
+    width: 50%;
+    right: 25%;
+    top: 30%;
+}
+
+.door_bg_flicker{
+    -webkit-animation: door 200ms both;
+    animation: door 200ms both;
+}
+
+.ch01_end2{/*主角手放胸前*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.ch01_end10{/*全員牽手*/
+    position: fixed;
+    width: 70%;
+    left: 15%;
+    top: 0%;
+}
+
+/*媽媽出門*/
+@keyframes mom {
+    0.0%{
+        transform: scale(1) translate(0%,0%);
+    }
+    10.1%{
+        transform: translate(25%,-3%) scale(1);
+    }
+    20.3%{
+        transform: scale(1) translate(50%,0%);
+    }
+    30.4%{
+        transform: scale(1) translate(75%,-3%);
+    }
+    39.5%{
+        transform: translate(100%,0%) scale(1);
+    }
+    49.6%{
+        transform: translate(125%,-3%) scale(1);
+    }
+    59.8%{
+        transform: translate(150%,0%) scale(1);
+    }
+    69.6%{
+        transform: translate(175%,-3%) scale(1);
+    }
+    79.9%{
+        transform: translate(200%,0%) scale(1);
+    }
+    90.4%{
+        transform: translate(225%,-3%) scale(1);
+    }
+    99.5%{
+        transform: translate(250%,0%);
+    }
+  }
+  
+  @keyframes dad {
+    0.0%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(-40%, 0px) scale(1);
+    }
+    49.8%{
+        transform: translate(-15%, -3%) scale(1);
+    }
+  }
+
+/*摔門背景*/
+ @-webkit-keyframes door {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes door {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+/*哥哥回家*/
+  @keyframes gg {
+    0.0%{
+        transform: scale(1) translate(0%,0%);
+    }
+    100%{
+        transform: scale(1) translate(-100%,0%);
+    }
+    24.9%{
+        transform: scale(1) translate(-25%,-3%);
+    }
+    50.2%{
+        transform: scale(1) translate(-50%,0%);
+    }
+    74.8%{
+        transform: scale(1) translate(-75%,-3%);
+    }
+}  

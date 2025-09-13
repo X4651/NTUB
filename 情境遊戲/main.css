@@ -1,0 +1,608 @@
+/*限制最小化視窗*/
+/* body{   
+  min-width: 1000px;
+  min-height: 700px;
+} */
+
+.homebtn{       /*首頁的按鈕樣式*/
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  /*居中*/
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 15vw;
+
+  margin-bottom: 5%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中*/
+  font-size: 3vw;        /*文字大小*/
+  color: gold;       /*文字顏色*/
+  font-weight: bold;        /*文字粗體*/
+  user-select:none;     /*禁止文字反白*/
+}
+.homebtn-animation{       /*首頁的按鈕樣式*/
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  /*居中*/
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 15vw;
+  
+  margin-bottom: 5%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中*/
+  font-size: 3vw;        /*文字大小*/
+  color: gold;       /*文字顏色*/
+  font-weight: bold;        /*文字粗體*/
+  user-select:none;     /*禁止文字反白*/
+
+  -webkit-animation: homebtn-loanding 0.5s ease-in-out;/*效果*/
+  animation: homebtn-loanding 0.5s ease-in-out;
+  
+  pointer-events: none;   /*不能被點擊(避免觸發click事件)*/
+}
+@-webkit-keyframes homebtn-loanding {
+  0% {
+    opacity: 0;
+    top: 13vw;
+  }
+  100% {
+    opacity: 1;
+    top: 15vw;
+  }
+}
+@keyframes homebtn-loanding {
+  0% {
+    opacity: 0;
+    top: 13vw;
+  }
+  100% {
+    opacity: 1;
+    top: 15vw;
+  }
+}
+
+.homebtn:hover{       /*首頁的滑鼠經過(:hover)的按鈕樣式*/
+  background-color:rgb(255, 215, 0);       /*背景*/
+  border-color: rgb(255, 255, 255);     /*邊框顏色*/
+  color: white;       /*文字顏色*/  
+  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;/*閃爍效果*/
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
+  user-select:none;     /*禁止文字反白*/
+}
+
+.chaper-btn{       /*章節選擇的按鈕樣式*/
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  width: 25%;
+  /*居中*/
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 5vw;
+
+  margin-bottom: 3%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中(7/20修改成左右對齊)*/
+  font-size: 3vw;        /*文字大小*/
+  font-weight: bold;        /*文字粗體*/
+  color: gold;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+}
+.chaper-btn-animation{       /*章節選擇的按鈕樣式*/
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  width: 25%;
+  /*居中*/
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 5vw;
+
+  margin-bottom: 3%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中(7/20修改成左右對齊)*/
+  font-size: 3vw;        /*文字大小*/
+  font-weight: bold;        /*文字粗體*/
+  color: gold;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+
+  -webkit-animation: chaper-btn-loanding 0.5s ease-in-out;/*效果*/
+  animation: chaper-btn-loanding 0.5s ease-in-out;
+  
+  pointer-events: none;   /*不能被點擊(避免觸發click事件)*/
+}
+
+@-webkit-keyframes chaper-btn-loanding {
+  0% {
+    opacity: 0;
+    right: 5vw;
+  }
+  100% {
+    opacity: 1;
+    right: 0vw;
+  }
+}
+@keyframes chaper-btn-loanding {
+  0% {
+    opacity: 0;
+    right: 5vw;
+  }
+  100% {
+    opacity: 1;
+    right: 0vw;
+  }
+}
+
+.chaper-btn:hover{       /*章節選擇的滑鼠經過(:hover)的按鈕樣式*/
+  background-color:rgb(255, 215, 0);       /*背景*/
+  border-color: rgb(255, 255, 255);     /*邊框顏色*/
+  color: white;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;/*閃爍效果*/
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+
+.btn{       /*情緒選擇的按鈕樣式*/
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 235, 0, 0.8));     /*背景(0.8為設定透明度)*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-color: rgb(250, 161, 36);     /*邊框顏色*/
+  border-radius: 1vw;     /*邊框圓角*/
+  /*按鈕寬高*/
+  height: 5vw;
+  width: 55%;
+  
+  text-align: center;     /*文字居中*/
+  font-size: 1.6vw;        /*文字大小*/
+  font-weight: bold;        /*文字粗體*/
+  /*居中*/
+  position: relative;     /*使用相對定位讓按鈕處於最上層*/
+  display: block;
+  margin: auto;
+
+  margin-top: 3vw;           /*按鈕跟top之間的間距*/
+  margin-bottom: 1%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  color: rgb(250, 161, 36);       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+}
+.btn-animation{       /*首頁的按鈕樣式*/
+  background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 235, 0, 0.8));     /*背景(0.8為設定透明度)*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-color: rgb(250, 161, 36);     /*邊框顏色*/
+  border-radius: 1vw;     /*邊框圓角*/
+  /*按鈕寬高*/
+  height: 5vw;
+  width: 55%;
+  
+  text-align: center;     /*文字居中*/
+  font-size: 1.6vw;        /*文字大小*/
+  font-weight: bold;        /*文字粗體*/
+  /*居中*/
+  position: relative;     /*使用相對定位讓按鈕處於最上層*/
+  display: block;
+  margin: auto;
+
+  margin-top: 3vw;           /*按鈕跟top之間的間距*/
+  margin-bottom: 1%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  color: rgb(250, 161, 36);       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+  -webkit-animation: btn-loanding 0.5s ease-in-out;/*效果*/
+  animation: btn-loanding 0.5s ease-in-out;
+  
+  pointer-events: none;   /*不能被點擊(避免觸發click事件)*/
+}
+@-webkit-keyframes btn-loanding {
+  0% {
+    opacity: 0;
+    top: -1vw;
+  }
+  100% {
+    opacity: 1;
+    top: 0vw;
+  }
+}
+@keyframes btn-loanding {
+  0% {
+    opacity: 0;
+    top: -1vw;
+  }
+  100% {
+    opacity: 1;
+    top: 0vw;
+  }
+}
+
+
+.btn:hover{       /*情緒選擇的滑鼠經過(:hover)的按鈕樣式*/
+  color: black;       /*文字顏色*/
+  -webkit-animation: pulsate-bck 0.5s ease-in-out both;/*閃爍效果*/
+  animation: pulsate-bck 0.5s ease-in-out both;
+  user-select:none;     /*禁止文字反白*/
+}
+
+.txt{       /*文字敘述的樣式*/
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) ;     背景(0.X為設定透明度) */
+  background:rgba(0, 0, 0, 0.7);
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-color: rgb(250, 161, 36);     /*邊框顏色*/
+  border-radius: 1vw;     /*邊框圓角*/
+  /*對齊方式*/
+  position: fixed;
+  bottom: 1%;
+  left: 2%;
+  right: 2%;
+  top: 75%;
+  /* top: 560px; */
+  white-space:pre-wrap; /*不合併連續的空白*/
+
+  padding: 0.5% 5% 0% 12%;     /*文字與邊框的間距*/
+  font-size: 1.82vw;        /*文字大小*/
+  /*font-size: 28px;*/
+  text-align: left;     /*文字靠左*/
+  font-family: 微軟正黑體;
+  color: white;       /*文字顏色*/
+  /* border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: white; */
+
+  user-select:none;     /*禁止文字反白*/
+}
+
+.return{
+  background:rgba(0, 0, 0, 0.3);     /*背景(0.9為設定透明度)*/
+  border: 2px solid black;
+  /*對齊方式*/
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  text-align: center;     /*文字居中*/
+  font-size: 3vw;        /*文字大小*/
+  /* border-style: none; */
+  /* border-radius: 12px; */
+  font-family: 微軟正黑體;
+  color: white;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+}
+
+.choose_Gender_btn{     /*(5/25新增)*/
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+
+  margin-bottom: 5%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中*/
+  font-size: 3vw;        /*文字大小*/
+  font-weight: bold;        /*文字粗體*/
+  color: gold;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+  /*居中*/
+  position: absolute;           
+  bottom: 1vw;           
+  left: 0;        
+  right: 0;
+  margin: auto;
+  
+  width: 16%;
+}
+
+.choose_Gender_btn:hover{       /*章節選擇的滑鼠經過(:hover)的按鈕樣式*/
+  background-color:rgb(255, 215, 0);       /*背景*/
+  border-color: rgb(255, 255, 255);     /*邊框顏色*/
+  color: white;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;/*閃爍效果*/
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+
+/*以下為按鈕的閃爍效果，(Animista)宣告*/
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.backgroundA {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+}
+.backgroundA img {
+  min-height: 100%;
+  width: 100%;
+}
+
+.backgroundB {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+  -webkit-animation: b 1.5s;
+  animation: b 1.5s;
+}
+.backgroundB img {
+  min-height: 100%;
+  width: 100%;
+}
+
+@-webkit-keyframes b {
+  0%{filter: blur(4px);}
+  100%{filter: blur(0px);}
+}
+@keyframes b {
+  0%{filter: blur(4px);}
+  100%{filter: blur(0px);}
+}
+
+.game_tips{
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 1vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  /*居中*/
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 10vw;
+
+  margin-bottom: 5%;        /*按鈕之間的間距*/
+  padding: 1vw 1vw;     /*文字與邊框的間距*/
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中*/
+  font-size: 3vw;        /*文字大小*/
+  color: gold;       /*文字顏色*/
+  font-weight: bold;        /*文字粗體*/
+  user-select:none;     /*禁止文字反白*/
+
+  height: 23vw;
+  width: 50%;
+}
+
+.game_tips_btn{       /*章節選擇的按鈕樣式*/
+  background-color:rgb(255, 215, 0);       /*背景*/
+  border-color: rgb(255, 255, 255);     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  /*居中*/
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: 3vw;
+
+  margin-bottom: 5%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中*/
+  font-size: 3vw;        /*文字大小*/
+  font-weight: bold;        /*文字粗體*/
+  color: white;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+
+  width: 10%;
+}
+
+.game_tips_btn:hover{       /*章節選擇的滑鼠經過(:hover)的按鈕樣式*/
+  background-color:rgb(255, 215, 0);       /*背景*/
+  border-color: rgb(255, 255, 255);     /*邊框顏色*/
+  color: white;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+  -webkit-animation: pulsate-bck 0.5s ease-in-out both;/*閃爍效果*/
+  animation: pulsate-bck 0.5s ease-in-out both;
+}
+
+.gender{           /*請選擇性別*/
+  position: fixed;
+  width: 50%;
+  right: 26%;
+  top: 6%;
+  user-select:none;     /*禁止反白*/
+}
+
+.male{           /*男生*/
+  position: fixed;
+  width: 7%;
+  left: 19%;
+  top: 80%;
+  user-select:none;     /*禁止反白*/
+}
+
+.female{           /*女生*/
+  position: fixed;
+  width: 7%;
+  right: 19%;
+  top: 80%;
+  user-select:none;     /*禁止反白*/
+}
+
+/*首頁預期效果按鈕*/
+.Game_expected_result{
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  width: 13vw;
+  
+  position: relative;
+  top: 1vw;
+  left: 27vw;
+
+  font-family: 微軟正黑體;
+  text-align: left;     /*文字居中*/
+  font-size: 1vw;        /*文字大小*/
+  color: black;       /*文字顏色*/
+  font-weight: bold;        /*文字粗體*/
+  user-select:none;     /*禁止文字反白*/
+}
+.Game_expected_result::after {
+  border-color: transparent gold transparent transparent;
+  border-style: solid;
+
+  /* 設定邊框大小可拼湊出任意形狀的三角形 */
+  border-width: 0.7vw;
+
+  bottom: -20vw;
+
+  /* 必須指定，才能顯示內容 */
+  content: "";
+
+  height: 0px;
+
+  /* 必須指定，否則會變梯形 */
+  position: absolute;
+  top: 0vw;
+  left: -1.6vw;
+  width: 0vw;
+}
+
+/*首頁音樂按鈕*/
+.music_button{
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.3vw;
+  border-radius: 50vw;     /*邊框圓角*/
+  width: 13vw;
+  
+  position: fixed;
+  bottom: 0vw;
+  right: 0vw;
+
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中*/
+  font-size: 2vw;        /*文字大小*/
+  color: gold;       /*文字顏色*/
+  font-weight: bold;        /*文字粗體*/
+  user-select:none;     /*禁止文字反白*/
+}
+.music-text{       /*音樂來源顯示處*/
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  width: 58%;
+  max-height: 33vw;       /*最高高度*/
+  overflow-y: overlay;    /*滾動條*/
+  /*居中*/
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 5vw;
+
+  white-space: pre; /*不合併連續的空白*/
+  padding: 0.5% 2% 0% 2%;     /*文字與邊框的間距*/
+  margin-bottom: 3%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  text-align: left;     /*文字靠左*/
+  font-size: 1vw;        /*文字大小*/
+  font-weight: bold;        /*文字粗體*/
+  color: black;       /*文字顏色*/
+}
+/*音樂來源顯示處滾動條寬度*/
+.music-text::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+/*音樂來源顯示處滾動條背景色*/
+.music-text::-webkit-scrollbar-track {
+  border-radius: 1vw;     /*邊框圓角*/
+  background: #FFFFFF; 
+}
+ 
+/*音樂來源顯示處滾動條顏色*/
+.music-text::-webkit-scrollbar-thumb {
+  border-radius: 1vw;     /*邊框圓角*/
+  background: gold; 
+}
+
+/*音樂來源顯示處滾動條點擊顏色*/
+.music-text::-webkit-scrollbar-thumb:hover {
+  background: rgb(250, 161, 36); 
+}
+
+.music-backhome-btn{       /*音樂來源回首頁按鈕*/
+  background-color: white;       /*背景*/
+  border-color: gold;     /*邊框顏色*/
+  border-style: solid;     /*邊框*/
+  border-width: 0.4vw;
+  border-radius: 1vw;     /*邊框圓角*/
+  width: auto;
+  /*居中*/
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 5vw;
+
+  margin-bottom: 3%;        /*按鈕之間的間距*/
+  font-family: 微軟正黑體;
+  text-align: center;     /*文字居中(7/20修改成左右對齊)*/
+  font-size: 2vw;        /*文字大小*/
+  font-weight: bold;        /*文字粗體*/
+  color: gold;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+}
+
+.music-backhome-btn:hover{       /*音樂來源回首頁按鈕的滑鼠經過(:hover)的按鈕樣式*/
+  background-color:rgb(255, 215, 0);       /*背景*/
+  border-color: rgb(255, 255, 255);     /*邊框顏色*/
+  color: white;       /*文字顏色*/
+  user-select:none;     /*禁止文字反白*/
+  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;/*閃爍效果*/
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+
+img{    /*防止拖曳*/
+  -webkit-user-drag:none;
+}

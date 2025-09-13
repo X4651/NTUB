@@ -1,0 +1,134 @@
+.next_text_img{
+    width: 2.5%;
+    /*對齊方式*/
+    position: fixed;
+    bottom: 4.5%;
+    right: 3.5%;
+    -webkit-animation: next_text_img_animation 1s infinite;/*閃爍效果*/
+    animation: next_text_img_animation 1s infinite;
+    user-select:none;     /*禁止文字反白*/
+}
+@-webkit-keyframes next_text_img_animation {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes next_text_img_animation {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.arrow1{           /*直箭頭*/
+    position: fixed;
+    width: 10%;
+    left: 45%;
+    top: 10%;
+    -webkit-animation: text-pop-up-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+	        animation: text-pop-up-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+.arrow2{           /*把直箭頭移到右下*/
+    position: fixed;
+    width: 10%;
+    right: 0%;
+    top: 10%;
+    -webkit-animation: text-pop-up-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+	        animation: text-pop-up-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+.arrow3{           /*橫箭頭*/
+    position: fixed;
+    width: 20%;
+    right: 0%;
+    top: 28%;
+    -webkit-animation: text-pop-up-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+	        animation: text-pop-up-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+.maymay{                 /*妹妹*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+
+.maymay2{                 /*妹妹移到左下*/
+    position: fixed;
+    width: 32%;
+    left: 1%;
+    top: 9%;
+}
+
+.maymayhappy{           /*妹妹開心表情*/
+    position: fixed;
+    width: 27%;
+    left: 37%;
+    top: 9%;
+}
+/*直箭頭動畫*/
+ @-webkit-keyframes text-pop-up-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @keyframes text-pop-up-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+/*橫箭頭動畫*/
+ @-webkit-keyframes text-pop-up-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @keyframes text-pop-up-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }

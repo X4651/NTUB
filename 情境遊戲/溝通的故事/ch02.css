@@ -1,0 +1,974 @@
+.ch02_fire{           /*火(無動作)*/
+  position: fixed;
+  width: 6%;
+  left: 47%;
+  top: 7%;
+}
+
+.ch02_fire_shake{     /*火(有動作)*/
+  position: fixed;
+  width: 6%;
+  left: 47%;
+  top: 7%;
+
+  -webkit-animation: wobble-ver-left 0.7s 1s infinite both;
+  animation: wobble-ver-left 0.7s 1s infinite both;
+}
+
+.ch02_fire2_shake{            /*火2(有動作)*/
+  position: fixed;
+  width: 6%;
+  right: 40.5%;
+  top: 7%;
+
+  -webkit-animation: wobble-ver-right 0.8s infinite both;
+  animation: wobble-ver-right 0.8s infinite both;
+}
+
+.ch02_maymay{                 /*第三段找朋友 妹妹/弟弟*/
+  position: fixed;
+  width: 32%;
+  left: 15%;
+  top: 9%;
+}
+
+.ch02_maymay2{                 /*第四段 妹妹/弟弟*/
+  position: fixed;
+  width: 27%;
+  left: 35.5%;
+  top: 15%;
+}
+
+.ch02_maymayhappy{                 /*妹妹/弟弟開心表情*/
+  position: fixed;
+  width: 30%;
+  left: 35.5%;
+  top: 5%;
+}
+
+.ch02_maymaysad{                 /*妹妹/弟弟傷心表情(左下)*/
+  position: fixed;
+  width: 32%;
+  left: 1%;
+  top: 9%;
+}
+
+.ch02_maymaysad2{                 /*妹妹/弟弟傷心表情2*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 9%;
+}
+
+.ch02_maymaysad3{                 /*第六段 妹妹/弟弟傷心表情3*/
+  position: fixed;
+  width: 15%;
+  right: 10%;
+  top: 10%;
+}
+
+.ch02_maymaycry{                 /*妹妹/弟弟哭臉*/
+  position: fixed;
+  width: 27%;
+  left: 19.5%;
+  top: 5.5%;
+}
+
+.ch02_maymaycry_walk{            /*妹妹/弟弟哭臉跑進房間*/
+  position: fixed;
+  width: 27%;
+  left: 19.5%;
+  top: 5.5%;
+  
+  animation: yourAnimation1 2s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch02_maymaycry2{                 /*妹妹/弟弟哭臉(第二段被安慰))*/
+  position: fixed;
+  width: 13%;
+  left: 43.5%;
+  top: 24.5%;
+}
+
+.ch02_maymaycry5{                 /*妹妹/弟弟哭臉5*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 9%;
+}
+
+.ch02_maymaystopcrying{                 /*妹妹/弟弟停止哭泣*/
+  position: fixed;
+  width: 15%;
+  right: 10%;
+  top: 10%;
+}
+
+.ch02_maymaystopcrying2{                 /*妹妹/弟弟嘴平*/
+  position: fixed;
+  width: 32%;
+  left: 1%;
+  top: 9%;
+}
+
+.ch02_maymaystopcrying3{                 /*第八段 妹妹/弟弟停止哭泣3*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 9%;
+  -webkit-animation: jello-vertical 0.9s both;
+	        animation: jello-vertical 0.9s both;
+}
+
+.ch02_door1{            /*門*/
+  position: fixed;
+  width: 46%;
+  right: -5%;
+  top: 0%;
+}
+
+.ch02_door_frame{            /*門框*/
+  position: fixed;
+  width: 32%;
+  right: 5%;
+  top: 5%;
+}
+
+.ch02_door2{            /*關著的門*/
+  position: fixed;
+  width: 22.7%;
+  right: 40%;
+  top: 0%;
+}
+
+.ch02_dad{            /*爸爸*/
+  position: fixed;
+  width: 13%;
+  left: 15%;
+  top: 7%;
+}
+
+.ch02_dad2{            /*爸爸2*/
+  position: fixed;
+  width: 13%;
+  left: 15%;
+  top: 7%;
+
+  animation: yourAnimation2 1s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch02_dad3{            /*爸爸3*/
+  position: fixed;
+  width: 30%;
+  left: 7%;
+  top: 7%;
+}
+
+.ch02_dad6{            /*結局六爸爸*/
+  position: fixed;
+  width: 30%;
+  right: 10%;
+  top: 10%;
+}
+
+.ch02_dad7{            /*結局七爸爸*/
+  position: fixed;
+  width: 20%;
+  left: 20%;
+  top: 6%;
+}
+
+.ch02_dadangry{            /*爸爸生氣*/
+  position: fixed;
+  width: 13%;
+  left: 33%;
+  top: 6%;
+}
+
+.ch02_dadholdhands{     /*爸爸牽*/
+  position: fixed;
+  width: 35%;
+  right: 33%;
+  top: 0%;
+}
+
+.ch02_dadhug{            /*爸爸抱*/
+  position: fixed;
+  width: 35%;
+  right: 33%;
+  top: 0%;
+}
+
+.ch02_dadsorry{            /*爸爸抱歉*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 9%;
+}
+
+.ch02_dadsurprise{            /*第九段爸爸驚訝表情*/
+  position: fixed;
+  width: 30%;
+  left: 7%;
+  top: 7%;
+}
+
+.ch02_dad_open_the_door{            /*第六八段爸爸開門*/
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.ch02_mom{            /*媽媽*/
+  position: fixed;
+  width: 13%;
+  right: 15%;
+  top: 7%;
+
+}
+
+.ch02_mom2{            /*媽媽2*/
+  position: fixed;
+  width: 13%;
+  right: 15%;
+  top: 7%;
+  
+  animation: yourAnimation3 1s ease 0s 1 normal none;
+  animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch02_mom3{            /*媽媽3*/
+  position: fixed;
+  width: 30%;
+  right: 7%;
+  top: 7%;
+}
+
+.ch02_momangry{            /*媽媽生氣*/
+  position: fixed;
+  width: 13%;
+  right: 25%;
+  top: 6%;
+}
+
+.ch02_momsurprise{            /*第四段媽媽驚訝表情*/
+  position: fixed;
+  width: 30%;
+  right: 7%;
+  top: 7%;
+}
+
+.ch02_momsad{            /*第四段媽媽傷心表情*/
+  position: fixed;
+  width: 30%;
+  right: 7%;
+  top: 7%;
+}
+
+.ch02_momsad2{            /*第九段媽媽傷心表情反轉*/
+  position: fixed;
+  width: 30%;
+  right: 7%;
+  top: 7%;
+
+  -webkit-animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	        animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+          animation-fill-mode:forwards;    /*讓動畫結束後不會回到原點*/
+}
+
+.ch02_momsad3{            /*第九段媽媽傷心表情反轉*/
+  position: fixed;
+  width: 30%;
+  right: 7%;
+  top: 7%;
+}
+
+.ch02_momsad4{            /*第九段媽媽傷心表情反轉抖動*/
+  position: fixed;
+  width: 30%;
+  right: 7%;
+  top: 7%;
+
+  -webkit-animation: vibrate-1 0.3s linear both;
+	        animation: vibrate-1 0.3s linear both;
+}
+
+.ch02_momsad5{            /*結局六媽媽傷心表情*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 9%;
+}
+
+.ch02_mom_standing_by_the_door{            /*第七段媽媽反轉*/
+  position: fixed;
+  width: 13%;
+  left: 13%;
+  top: 5%;
+}
+
+.ch02_mom_standing_by_the_door2{            /*結局六媽媽反轉*/
+  position: fixed;
+  width: 30%;
+  left: 10%;
+  top: 10%;
+}
+
+.ch02_friend{            /*朋友*/
+  position: fixed;
+  width: 32%;
+  right: 15%;
+  top: 9%;
+}
+
+.ch02_txt1{            /*吸氣*/
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.ch02_txt2{            /*吐氣*/
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.ch02_txt4{            /*嗚*/
+  position: fixed;
+  width: 50%;
+  right: 0%;
+  top: 10%;
+}
+
+.ch02_txt5{            /*嗚嗚*/
+  position: fixed;
+  width: 50%;
+  right: 0%;
+  top: 10%;
+}
+
+.ch02_txt6{            /*叩叩*/
+  position: fixed;
+  width: 10%;
+  left: 20%;
+  top: 10%;
+}
+
+.ch02_txt7{            /*還好嗎*/
+  position: fixed;
+  width: 30%;
+  right: 12%;
+  top: 10%;
+}
+
+.ch02_Note1{            /*音符1*/
+  position: fixed;
+  width: 60%;
+  left: 0%;
+  top: 7%;
+
+  -webkit-animation: shake-lr 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_Note2{            /*音符2*/
+  position: fixed;
+  width: 60%;
+  right: 0%;
+  top: 7%;
+
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_Note3{            /*音符3*/
+  position: fixed;
+  width: 60%;
+  left: 9%;
+  top: 0%;
+
+  -webkit-animation: shake-lr 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_Note4{            /*音符4*/
+  position: fixed;
+  width: 60%;
+  right: 9%;
+  top: 0%;
+  
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_Note5{            /*音符5*/
+  position: fixed;
+  width: 60%;
+  left: 5%;
+  top: 20%;
+  
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_Note6{            /*音符6*/
+  position: fixed;
+  width: 60%;
+  right: 5%;
+  top: 20%;
+  
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.bg_flicker{
+  -webkit-animation: blink-1 0.6s both;
+	        animation: blink-1 0.6s both;
+}
+
+.ch02_toy_f{/*抱玩具*/
+  position: fixed;
+  width: 60%;
+  left: 13%;
+  top: -5%;
+}
+
+.ch02_end1{/*父母牽手*/
+  position: fixed;
+  width: 50%;
+  left: 24%;
+  top: 0%;
+}
+
+.ch02_end2{/*父母坐沙發*/
+  position: fixed;
+  width: 70%;
+  left: 13%;
+  top: 0%;
+}
+
+.ch02_end3_1{/*手忙腳亂*/
+  position: fixed;
+  width: 50%;
+  left: 22%;
+  top: 0%;
+}
+
+.ch02_end3_2{/*主角手放胸前*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 9%;
+}
+
+.ch02_end4{/*父母抱歉*/
+  position: fixed;
+  width: 50%;
+  left: 25%;
+  top: 0%;
+}
+
+.ch02_end4_2{/*父母雙手搭肩*/
+  position: fixed;
+  width: 50%;
+  left: 24%;
+  top: 0%;
+}
+
+.ch02_end5_1{/*冒汗1*/
+  position: fixed;
+  width: 5%;
+  left: 20%;
+  top: 2%;
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+
+.ch02_end5_2{/*冒汗2*/
+  position: fixed;
+  width: 5%;
+  right: 20%;
+  top: 2%;
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+
+.ch02_end7{/*媽媽摸頭*/
+  position: fixed;
+  width: 35%;
+  right: 20%;
+  top: 0%;
+}
+
+.ch02_end7_1{/*飲料1*/
+  position: fixed;
+  width: 13%;
+  left: 8%;
+  top: 40%;
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_end7_2{/*飲料2*/
+  position: fixed;
+  width: 13%;
+  left: 2%;
+  top: 0%;
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_end7_3{/*飲料3*/
+  position: fixed;
+  width: 15%;
+  right: 8%;
+  top: 40%;
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_end7_4{/*飲料4*/
+  position: fixed;
+  width: 13%;
+  right: 2%;
+  top: 0%;
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_end7_5{/*漢堡1*/
+  position: fixed;
+  width: 10%;
+  left: 36%;
+  top: 0%;
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_end7_6{/*漢堡2*/
+  position: fixed;
+  width: 10%;
+  right: 40%;
+  top: 0%;
+  -webkit-animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	animation: shake-lr 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.ch02_end9{/*坐床上抱抱*/
+  position: fixed;
+  width: 50%;
+  left: 23%;
+  top: 0%;
+}
+
+.ch02_end10{/*爸爸蹲下摸*/
+  position: fixed;
+  width: 27%;
+  left: 37%;
+  top: 0%;
+}
+
+/*以下為火焰晃動效果，(Animista)宣告*/
+@-webkit-keyframes wobble-ver-left {
+0%,
+100% {
+  -webkit-transform: translateY(0) rotate(0);
+          transform: translateY(0) rotate(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+15% {
+  -webkit-transform: translateY(-30px) rotate(-6deg);
+          transform: translateY(-30px) rotate(-6deg);
+}
+30% {
+  -webkit-transform: translateY(15px) rotate(6deg);
+          transform: translateY(15px) rotate(6deg);
+}
+45% {
+  -webkit-transform: translateY(-15px) rotate(-3.6deg);
+          transform: translateY(-15px) rotate(-3.6deg);
+}
+60% {
+  -webkit-transform: translateY(9px) rotate(2.4deg);
+          transform: translateY(9px) rotate(2.4deg);
+}
+75% {
+  -webkit-transform: translateY(-6px) rotate(-1.2deg);
+          transform: translateY(-6px) rotate(-1.2deg);
+}
+}
+@keyframes wobble-ver-left {
+0%,
+100% {
+  -webkit-transform: translateY(0) rotate(0);
+          transform: translateY(0) rotate(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+15% {
+  -webkit-transform: translateY(-30px) rotate(-6deg);
+          transform: translateY(-30px) rotate(-6deg);
+}
+30% {
+  -webkit-transform: translateY(15px) rotate(6deg);
+          transform: translateY(15px) rotate(6deg);
+}
+45% {
+  -webkit-transform: translateY(-15px) rotate(-3.6deg);
+          transform: translateY(-15px) rotate(-3.6deg);
+}
+60% {
+  -webkit-transform: translateY(9px) rotate(2.4deg);
+          transform: translateY(9px) rotate(2.4deg);
+}
+75% {
+  -webkit-transform: translateY(-6px) rotate(-1.2deg);
+          transform: translateY(-6px) rotate(-1.2deg);
+}
+}
+/*以下為火焰晃動效果2，(Animista)宣告*/
+@-webkit-keyframes wobble-ver-right {
+0%,
+100% {
+  -webkit-transform: translateY(0) rotate(0);
+          transform: translateY(0) rotate(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+15% {
+  -webkit-transform: translateY(-30px) rotate(6deg);
+          transform: translateY(-30px) rotate(6deg);
+}
+30% {
+  -webkit-transform: translateY(15px) rotate(-6deg);
+          transform: translateY(15px) rotate(-6deg);
+}
+45% {
+  -webkit-transform: translateY(-15px) rotate(3.6deg);
+          transform: translateY(-15px) rotate(3.6deg);
+}
+60% {
+  -webkit-transform: translateY(9px) rotate(-2.4deg);
+          transform: translateY(9px) rotate(-2.4deg);
+}
+75% {
+  -webkit-transform: translateY(-6px) rotate(1.2deg);
+          transform: translateY(-6px) rotate(1.2deg);
+}
+}
+@keyframes wobble-ver-right {
+0%,
+100% {
+  -webkit-transform: translateY(0) rotate(0);
+          transform: translateY(0) rotate(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+15% {
+  -webkit-transform: translateY(-30px) rotate(6deg);
+          transform: translateY(-30px) rotate(6deg);
+}
+30% {
+  -webkit-transform: translateY(15px) rotate(-6deg);
+          transform: translateY(15px) rotate(-6deg);
+}
+45% {
+  -webkit-transform: translateY(-15px) rotate(3.6deg);
+          transform: translateY(-15px) rotate(3.6deg);
+}
+60% {
+  -webkit-transform: translateY(9px) rotate(-2.4deg);
+          transform: translateY(9px) rotate(-2.4deg);
+}
+75% {
+  -webkit-transform: translateY(-6px) rotate(1.2deg);
+          transform: translateY(-6px) rotate(1.2deg);
+}
+}
+
+/*妹妹/弟弟跑步*/
+@keyframes yourAnimation1 {
+0.0%{
+    transform: scale(1) translate(0%, 0) skew(0deg);
+}
+100%{
+    transform: scale(1) translate(300%, 0) skew(0deg);
+}
+49.5%{
+    transform: scale(1) translate(0%, 0) skew(-12deg);
+}
+}
+
+/*爸媽跑過來關心*/
+@keyframes yourAnimation2 {
+  0.0%{
+    transform: scale(1) translate(0%,0%);
+}
+100%{
+    transform: scale(1) translate(100%,0%);
+}
+25.1%{
+    transform: scale(1) translate(25%,-3%);
+}
+49.6%{
+    transform: scale(1) translate(50%,0%);
+}
+74.9%{
+    transform: scale(1) translate(75%,-3%);
+}
+}
+
+@keyframes yourAnimation3 {
+  0.0%{
+    transform: scale(1) translate(0%,0%);
+}
+100%{
+    transform: scale(1) translate(-100%,0%);
+}
+25.1%{
+    transform: scale(1) translate(-25%,-3%);
+}
+49.8%{
+    transform: scale(1) translate(-50%,0%);
+}
+75.1%{
+    transform: scale(1) translate(-75%,-3%);
+}
+}
+
+/*音符晃動*/
+ @-webkit-keyframes shake-lr {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  10% {
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  80% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  90% {
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+  }
+}
+@keyframes shake-lr {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  10% {
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  80% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  90% {
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+  }
+}
+
+/*第八段背景閃爍*/
+ @-webkit-keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+/*第八段 妹妹/弟弟被抱動畫*/
+ @-webkit-keyframes jello-vertical {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+            transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-vertical {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+            transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+/*媽媽轉身*/
+ @-webkit-keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+}
+@keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+}
+
+/*媽媽哭泣抖動*/
+ @-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
